@@ -38,7 +38,7 @@ app.get('/setup', function(req, res) {
   // create a sample user
   var mike = new User({ 
     name: 'Mike Casey', 
-    password: 'password',
+    password: 'new password',
     admin: true 
   });
 
